@@ -30,7 +30,7 @@ namespace DatabaseIntegration.CommandLine
                 Console.WriteLine($"{row["id"]}: {row["title"]}");
             }
 
-
+            
             Console.ReadKey();
         }
     }
